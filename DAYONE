@@ -1,0 +1,283 @@
+Intro: day one 
+instructor mr dansby
+
+Class commander tbd
+
+Training day 1-6 (or 7)
+Training hours 0800 - 1600
+
+Ctc doesn’t provide vouchers 
+Usmc cool plan 
+Unit supply 
+Or out of pocket 
+
+Coordinate on the test days for the legit civi side test 
+52.5 out of 70 to pass all tests (comptia and marinecorps) 
+
+
+https://marines.dodmwrlibraries.org/my-account
+home
+databases
+o’reilly
+
+after signing in 
+lookup comptia security+ in searchbar
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+CompTIA Security+ SY0-701
+By Sari Greene
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+CompTIA Security+ SY0-701 Cert Guide
+By Lewis Heuermann
+ Preparing for certification?
+    Take Practice Test
+    chevron right
+    View Certification Guide
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+CompTIA Security+ SY0-701 Exam Cram, 7th Edition
+By Robert Shimonski and Martin Weiss
+###################################################
+take thse guys down here
+
+S:\Security +\Sec+ SY0-701.zip\Sec+ SY0-701\CompTIA Pearson 701 Slides
+
+S:\Security +\Supplemental Materials.zip\Supplemental Materials
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+make study groups, and flashcards, use study guide
+
+chapter one
+  control: 
+    
+    control categories: 
+      technical control (logical): authenitacation;access;auditing;cryptograpghy;raid 5;radisu servers;session locks;firewalls  
+      managerial controls (decisions): security policies and procedures;personnel background checks;security awareness training;formaal change-management procedures
+      operational controls (people) : user training: computersupport;baseline configuration development;facility design details;environmentla security measures; incident handling procedures; disaster recovery plans
+      physical controls (first line): ensuring that entrances are secure; securing physical equipment; logging and surveilling visitors
+    
+    control types:
+      preventative controls(before-like a fence): access lists;passwords;fences 
+      deterrent controls(before-like a looters will be shot sign): alarm system signs; web banner that unauthorized login attempts are being monitored
+      detective controls(during):audit logs;ids;alarms;cctv;SIEM;NIDSs
+      corrective controls(after): tape backup; hot sites; quarantining an infected computer
+      compensating controls(lifted-truck):alternatives to costly or difficult-to-deploy security measures;use with caution as they do not provide the same level of security as replaced protocols(SEPARATION OF DUTY )
+      directive controls(redundancy):standards;procedures;policy guidelines;security awareness training
+
+chapter two:
+  topics:
+    CIA:
+      confidentiality: safeguards information from unauthroized access ad disclosire
+      integrity: ensures data remains accurate and trustworthy throuhgout its lifecycle (hashing algos/certs)
+      availability: ensures systems and data are accessible nad usbale when needed by authorized users.
+    non-repudiation: ensures that someone cannot deny the validity of something, such as authoriship of a statement (think emails)
+      -a legal concept widely used in information security to provide proof of the origin and integrity of data
+      -digital signatures are commonly used to provide non-repudiation in idgital commonications or storage
+    AAA: 
+      authentiacation: ensures the validaty of someines id and  prevents unauthroized access.
+      authorization: determines wha action users are allowed to perfroma after they have been authenticated. 
+      accounting: involves tracking and recording useres' activities and resource use.
+    gap analysis; is a strategic planning tool used to evaluate differrencs between the current state an ideal/desired state 
+      helps pinpoint deficieiencies in cybersecurity measures, whether in technology, software, personnel training, or peolicy enforcement
+      enables organizations to address and close these gaps effectively
+    zero trust: is a network security concept centeres on not trusting any entity or device by default
+      allows access based on various  known factors rather than relying on inherent trust
+      etsablishes trust through mechnisms such as authentication, authorization and validity of security posture
+        zero trust-control pane
+          adaptive identity
+          threat scope reductions
+          policy driven access control
+          secured zones
+          policy engine
+          policy administrator
+        zero trust-data pane
+          subject/system
+          policy enforcement point
+          implicit trust zones
+    physical sec_ -bollards/barricades -access badges -access control vestibules -fencing -video surveillance -security guards -lighting -sensors:infared;pressure;microwave;ultrasonic
+    deception and disruption technology_  
+    -deception technology_ involves the use of decoys, traps, and other deceptive measures to mislead and thwart attckers
+    -disruption tehcnology_ involves technique and tools that disrupt or impair attckers' ability to exceute their malicious activities
+        examples: 
+        -honeyfiles_are files created to serve as bait for potential attackers, designed to lure them into interaction
+        --serve as decoys witihin a network
+        --security teams can study the attackers' behavior withjout disturbing normal organizational operations 
+        -honeypots_is a decoy system or network seggment or networksegment designed to attracxt and trap potential attackers
+        --mimics legitimate systems or services to lure attackers into interacting with it,allowing security temas to monitor and analyze their behavior          
+        -honeynets_ is a netwrok of interconnected honeypotd and other decoy systems designed to deceive and trap potenital attackers
+        --provides a comprehensive view of attacers tactics,techniques, and procedures (TTPs) by simulating a fullsce network environment
+        -honeytokens_ are pieces of fake or fabricated data placed within a system or network to detect unauthorized access or activity
+        --designed to appear as legitimate or valuable data to attckers, whicih entices attackers to interact or access them 
+        --serve as indicaoras of compromise, alerting security teams to potential breaches or suspicious behavior 
+
+chapter three (block and dney list, aups, legacy apps, version control)
+-topics
+
+Business Processes Impacting Security Operations
+----Business processes are the organized steps that companies use to achieve their goals or provide services effectively.
+-----Impact on security operations
+------If the approval process isn't robust, it could lead to changes that introduce vulnerabilities.
+------Clear ownership protocols ensure that each asset has someone responsible for its security.
+
+Approval Process, Ownership, and Stakeholders
+----The approval process determines how security-affecting changes are authorized and who has the authority to make those decisions.
+----Ownership refers to the individual or team responsible for specific assets and accountable for their security.
+----Stakeholders are individuals or groups with a vested interest in an organization’s security practices.
+
+Impact Analysis & Test Results##planformurphy
+----Impact analysis involves evaluating the potential effects of changes on an organization’s security landscape.
+----Test results from activities like penetration tests, vulnerability assessments, and simulated attacks provide critical insights into the effectiveness of newly implemented security measures.
+
+Backout Plan, Maintenance Window, & Standard Operating Procedure (SOP)
+--A backout plan is a detailed procedure aimed at reversing changes that negatively affect security or business operations in IT systems or processes.
+--A maintenance window is a scheduled timeframe for implementing system updates or changes, chosen strategically to minimize disruptions.
+--SOPs are step-by-step instruction sets designed to guide workers through complex routine operations, ensuring consistency and adherence to best practices.
+
+technical implications
+---Technical implications encompass the potential consequences of technology-related decisions or events within the cybersecurity landscape.
+----Examples
+-----Changes to network infrastructure
+-----Adjustments to security protocols
+-----Requirements for increasing server capacity due to new software or systems
+
+Allow Lists & Block Lists/Deny Lists
+Allow lists or whitelists are lists of approved inputs that are permitted to be entered on a system.
+Block lists or deny lists are collections of specific elements, characters, or patterns that cannot be input.
+
+Restricted Activities
+Restricted activities are specific actions or operations within a computer or network system that are limited or prohibited to maintain cybersecurity standards.
+These restrictions are typically introduced during employee onboarding through key documentation like acceptable use policies (AUPs).
+
+Downtime, Service Restart, & Application Restart
+Downtime refers to periods when a system, network, or software application is unavailable.
+Service restart involves stopping and restarting a system service to implement updates, patches, or configuration changes.
+An application restart is like a service restart but it involves restarting a specific software application.
+
+Legacy Applications and Dependencies
+Legacy applications are older software programs that continue to play a critical role in an organization's operations.
+Dependencies are relationships in which one component or service relies on another for proper functioning.
+
+Documentation
+Documentation is written material that provides information about systems or processes.
+Examples
+User guides
+Technical specifications
+System descriptions
+
+Updating Diagrams
+Diagrams serve as maps or blueprints of networks or process flowcharts, providing visual representations.
+Updating diagrams involves editing existing diagrams of systems or networks to reflect any changes since the diagrams’ creation.
+Poorly documented changes can lead to instability and downtime.
+
+Updating Policies/Procedures
+Policies dictate the rules governing the use and security of IT systems. Procedures outline the specific steps to implement these rules.
+Regular revision of policies and procedures is essential to keep them aligned with technological advancements, environmental changes, or system modifications.
+
+Version Control
+Version control is a system that records changes made to a file or set of files over time.
+Allows users to:
+Track modifications
+Identify when and by whom changes were made
+Revert to earlier versions if necessary
+
+                                          $$$$$$$$$$$$$Chapter 4$$$$$$$$$$$$$$
+Topics
+Public Key Infrastructure
+  Public key infrastructure (PKI) encompasses key management, certificate authorities (CAs), intermediate CAs, and registration authorities (RAs).
+  PKI enables secure connections for websites, email transmissions, and remote access by utilizing asymmetric key pairs consisting of public and private keys.
+  Private keys are kept secret, while public keys can be distributed. Private key escrow may be provided by trusted third parties.
+
+Encryption
+  Encryption converts information into a coded format to prevent unauthorized access.
+  Different levels of encryption offer varying degrees of protection.
+    Full-disk encryption secures an entire hard drive, including data, files, and the operating system.
+    Partition encryption involves treating portions of a disk as separate units. 
+    File encryption, or encrypting individual files, adds an additional layer of security. 
+
+Transport/Communication
+  Data security and encryption is essential, whether the data is at rest, in transit, or in use.
+
+Symmetric Versus Asymmetric Encryption
+  Symmetric encryption uses a single key for both encryption and decryption. 
+  Asymmetric encryption employs a pair of keys: a public key for encryption and a private key for decryption.
+
+Key Exchange
+  Key exchange, also known as key establishment, is a cryptographic process that enables two parties to exchange cryptographic keys.
+
+Algorithms
+  Algorithms: Mathematical formulas used in cryptographic processes
+
+Key Length
+  Key length: The number of bits in an encryption algorithm's key; longer keys typically provide stronger encryption
+
+Tools
+  Tools: Specialized technologies and protocols for securing and managing digital information throughout its lifecycle
+
+Trusted Platform Module
+  Trusted Platform Module (TPM): A hardware-based security technology using a secure cryptoprocessor chip to execute cryptographic operations, generate and manage cryptographic keys, authenticate platform devices, and ensure platform integrity by storing security measurements
+
+Hardware Security Module
+  Hardware Security Module (HSM): A physical device serving as a secure cryptoprocessor, providing faster encryption than software-based solutions, and generally tamper-proof 
+
+Key Management System:A Key Management System (KMS) safeguards digital data by managing codes used to lock and unlock data
+Main functions:
+  Generates cryptographic keys
+  Stores keys securely
+  Exchanges keys
+  Key use and access control
+  Key replacement and rotation
+
+Secure Enclave:A secure enclave is a hardware-based feature found in devices like iPhones.
+  It segregates encryption tasks and runs on a separate microprocessor with its own operating system.
+  Designed to resist tampering, it prevents access to its data through strict protocols.
+  The enclave is resistant to software and hardware attacks.
+
+Obfuscation:Obfuscation: A technique used to protect sensitive information by altering or disguising the original data to prevent easy comprehension or access by unauthorized users
+
+Steganography: The practice of concealing secret messages within seemingly innocuous carriers
+  Audio steganography
+  Video steganography
+  Image steganography
+
+Hashing: A one-way function that maps data to a fixed-length value, primarily for authentication and ensuring data integrity by verifying that it hasn't been altered
+
+Salting:Salting: Adding random data to a password before hashing to enhance security 
+
+Digital Signatures:A mathematical scheme used to verify the authenticity and integrity of a digital message or document
+  Three algorithms used in a digital signature:
+    Key generation algorithm
+    Signing algorithm
+    Signature verifying algorithm
+  Two properties required for a digital signature:
+    Authenticity verification
+    Private key
+
+Key Stretching: A cryptographic technique used to enhance the security of weak keys against brute-force attacks 
+  Salt: Randomly generated data added to a password before hashing to prevent the same password from producing the same hash value
+  Pepper: Another randomly generated value added to a password hash, kept secret and separate from the hashed password
+
+Blockchain:A secure and immutable digital ledger technology that records transactions across a network of computer systems in a decentralized manner
+   Prevents alteration or fraud
+
+Open Public Ledger:: A component of blockchain technology that organizes transaction information into blocks that are chained together chronologically
+  Verifies transaction authenticity
+  Prevents double spending without the need for a central authority
+
+Certificates:A digital document issued by a Certificate Authority (CA) to verify the identity of the certificate holder and ensure the legitimacy of online communications
+  Certificate Authorities (CA): Entities, typically servers, responsible for issuing certificates to users in a Public Key Infrastructure (PKI) system, serving as trusted third parties to validate identities and secure digital exchanges
+
+
+in red 
+certificate signing request (csr)
+
+on board
+assimetric and symmetric keys-->confidentiality
+hashing--> integrity
+copy of private key is called a recovery key
+and this copy is tored in a place called key escorw
+authorized to see and find this recovery key is aclled recovery agents
+
+full disk encyption and full device encyption aare differnt
+
+best key stretching: pbkdf2 and bcrypt
+
+
+
