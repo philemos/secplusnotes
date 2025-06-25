@@ -1,0 +1,230 @@
+chapter four/ daytwo
+
+ceaser cioher is a substitution cipher
+sha1 or 2 stronger @ definenetly sha 2, sha 1 is obsolete. in 2017 google and cwi amsterdam performed an attack and collisoion on sha1 and proved it obsolte
+md5 is also no bueno
+
+checksum is crucial for security and used for checking hashes 
+
+media access controller
+message authenticaion code
+salt and pepper make security clever
+whats ccmp ----|
+               |----CTM(counter mode);CBC(cipher block chain);MAC(message authenticaion code);PROTOCOL()
+whats hmac---Hash-based Message Authentication Code
+It’s a MAC (Message Authentication Code) that uses a hash function (like SHA-256) and a secret key to produce a tamper-evident message tag.
+
+
+
+wildacard certtificate (*)
+very promininet when a compnay had many sites
+
+PEM
+Privacy Enhanced MAIL
+
+rainbow table 
+
+pt table 
+rainbow hash
+
+csr ()
+crl (certificate revocation list)
+ocsp (onlne certificate status protocol)
+xcert (cross certification certificate) 
+
+389 port protocol 
+port 500
+port 3389
+
+
+
+chapter 5
+
+need to have an ofensive mindset
+art of war
+
+elit level hackers
+scipt writer
+script kiddies
+
+
+teach cyber younger kids already hav screens
+apts
+unksilled 
+hacktivists
+cybercriminals
+advanced persistent threats
+shadow it-unauthorized
+insider threats-broke
+
+threat actor motivations
+ethics
+revenge
+disruption/chaos
+
+go over watering hole attacks
+smishing
+phishing
+
+blue jacking
+blue snarfing
+blue bugging
+
+race conditos
+TOC/TOU
+time of check/ time of use
+tou
+
+shimming- microsoft example
+smishing- texting based attack
+skimming- wireless scammer technique
+
+infrastructure as a service just gives the cutomer the structure, or virtual, sd hardware/hardware /space to work
+
+platform as aservice is like the operating system, and gives the customer thsi os to wokr on (developers love it)
+
+saas, software as aservice is the mostr restricve methods of cloud computing
+
+security as a service is just what cyber teh do pretty muh like remote security it
+
+public private hybrid and community environments
+
+public cloud; likee freeweb email services; everyone shares it
+private cloud: you and ayou alone, or simply witihin an organization
+community cloud: institutuions within the same industry that use that same cloud, like hte medical industry
+hybrid cloud: a mix of any of the two or all three
+
+social media security
+peer to peer networks
+dark web
+
+supply chain
+  service provider vulnerabilities
+    breaches or weaknesses impact organizational secuirty
+  hardware provider vulnerabilities
+    tampering, compromised firmware,counterfeit components
+  software provider vulnerabilities
+    weaknesses in products and vulnerabilities
+    varied vulnerabiliteis such as coding errors or malicious insertions
+
+crptographiv vulnerabilites- ng
+
+misconfigurations- massive vulnerabiliteis
+regular system audits
+using documented config stanadrds
+using automated tools
+
+
+mobile devices
+external device:remote wipe
+external storage:encyption
+
+zero day- like zombies, no one knew
+most important race cndition; tou tol
+
+syntax
+dll injections
+ldap injections
+sqli
+directory transversal (aka dot dot / ../../)
+xml injectiuons
+
+chatper 8
+
+malware attacks: does whatever the dev says...ransomware is king,social engineering first...trojan hores is designed to look like a legitimate website/app...
+remote access trojan=rat, crweates a backdoor...bloatware consumes lots of resourcestoo make it move as though it were fat... spyware just monitors...
+worms are like maggot, self repilicating, regrowing,healing...viruses infect and spread copies of themselves throughout system...keylogegers steal sensitive infomartion...
+logicboms (two types 1) timebased 2)event based )intiarew malicoius functions under specific places...rootkits gain admin level...
+
+physical attacks: brute-force...physical brute-force...rfid cloning...envornemntal
+
+network atacks:ddos(amplified[small request w large response];refelcted[legit services to bounceand redirect];smurf[bcast-tgtnetowrk/victim])...
+dns attacks
+          poison  
+        arp and mac
+      ip&mac | ip&url
+
+dos one to many;ddos many to many
+
+application attacks:
+
+cryptographic attacks:
+
+password attacks:
+
+indicators
+
+wireless arracks
+on path attacks; MITB man in the browser, mitm man in the niddle; evil twin; downgrade attack
+credential display
+malicious code
+
+application attacks: injection attacks...buffer overflow...replay...privelage esacalation...forgery(xcrsy=crsf[crosssite]//ssrf[surverside])...directory traversal
+
+hw read through directory traversal
+
+birthday attacks 
+collision
+
+password attacks
+pasword spraying
+bruteforce attacks
+
+account lockout
+concurretn sessions 
+blokced content
+
+
+indicators
+missing logs
+published/document indicators
+
+in red
+owasp
+cve
+cvss
+ieee
+
+not in red
+nist
+ptes
+ietf
+csa
+
+important eterms
+trojan horses
+most dangerous type of malware: worm
+bloatware
+rfid
+environmental threats
+ddos attakcs;ddosattacks;wireless attack;ssl scripting;evil tiwins; deauth and auth atacks;bluejacking;blubugging;on path attack : mitm and mitb
+credential replay 
+injection atacks
+ldap injection attacks
+sql injections attacks
+xml attacks
+../ attacks
+privelege escaltaion 
+horzontal and vertical
+forgery attacks
+crossite and wssrver side
+initalization vectoe IV homework for tinght
+collision aka day attacks
+spraying and brute force attacks
+concurrent sessions
+
+o rwx
+g rwx
+u
+r--
+rwx
+chmod
+g+w
+
+
+
+
+
+
+
+
