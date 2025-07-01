@@ -1,0 +1,146 @@
+chapter 19
+provisioning/deprovisioning
+permission
+
+chmod
+
+federation
+SAMLSecurity Assertion Markup Language
+
+single sign-on (SSO)
+sso: protocols
+ldap
+oauth
+saml
+Interoperability
+identity and access management (IAM)
+
+
+xml 
+sqli (INJECTIONS)
+ldp injecti0n(completley differfent from directroy traversal)
+dll inj
+../
+dot dot slash
+xml injection 
+
+[or1=1]---->sqli
+
+ATTESTAION
+remote attestation
+tpm
+trusted platofmr model
+sim vs e-sim example
+
+ACCESS
+rbac (role based acess control) (godmode)
+rule based acess control(law is god)
+MAC(mandatory access control) predetemined on cpu, think scif
+DAC (aceess is detemined by owner, like a dictator)
+Attribute-Based Access Control (ABAC) == if then,kinda like rules but not really 
+
+mfa
+something you have
+something you know
+something you are
+
+biometrics
+
+hard and soft authenitcation keys
+
+security keys
+
+factors
+
+passwords
+
+PMA tools
+JIT-just in time, not a florida thing lol 
+ephemeral-one time use only pretty much
+password vaulting-bank vault for password
+
+yubi keys
+
+permissioins creep
+
+        important stuff
+
+sso
+federaton
+sso open id connect
+which r uns off open authorization
+
+theyre all cenrteal to federation and sso
+
+remmeber what saml stands for 
+
+mac mandatory access control
+time of day restriction
+password concepts
+
+chapter 20
+Understanding the Importance of Automation and Orchestration Related to Secure Operations
+
+Use Cases of Automation and Scripting
+
+Benefits
+
+Other Considerations
+
+User Provisioning can be autmoated, Resource Provisioning can be automated, Guard Rails
+can be automated,
+
+A security group is a collection of users that are categorized based on security policies,
+which can be automatically updated or modified to grant or restrict access to particular system
+resources
+
+Ticket Creation and Escalation
+
+Ticket Creation and Escalation
+Automation also simplifies the ticket creation and escalation process in incident response
+scenarios. An automated ticket creation system can detect an irregularity, such as an 
+unauthorized login attempt, and create a ticket or an incident report in a system used for
+tracking issues, problems, or activities that require attention or action
+
+Continuous Integration and Testing
+Continuous integration and testing, or continuous integration and continuous testing (CI/CT),
+involves regular, automated integration of code changes, contributed by multiple developers,
+into a single repository, followed by an immediate series of rigorous automated tests to ensure
+code quality and security.
+
+Integrations and Application Programming Interfaces (APIs)
+Integrations and application programming interfaces (APIs) refer to the automated linking
+of different computing services and software applications to work as a coherent system, 
+often with APIs that allow different software entities to communicate with each other
+
+importnat terms
+guardrails
+apis
+ci/cts
+techniaclk debt
+
+chapter 21
+Understanding Appropriate Incident Response Activities
+Process
+
+Training
+
+Testing
+
+Root cause analysis
+
+Threat hunting
+
+Digital forensics
+
+Chapter 22
+Using Data Sources to Support an Investigation
+Data sources
+
+LOGS
+var/logs
+http ports: 8080 80 8081
+443
+53
+
+
